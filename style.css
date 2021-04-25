@@ -162,7 +162,33 @@
   }
 }
 
+@media (max-width: 640px) and (orientation: portrait) {
+  #translate fieldset {
+    width: 95vw;
+  }
+  .effect {
+    max-height: 300px;
+  }
+  .effect .text {
+    font-size: 22px;
+  }
+  #footer {
+    height: 7vh;
+    justify-content: center;
+  }
+}
+@media (max-width: 640px) and (orientation: landscape) {
+  #header h1 {
+    font-size: 24px;
+    margin-bottom: -5px;
+  }
+  #header p {
+    font-size: 13px;
+  }
+
+  /* Tutaj możnaby dodać logikę, że kiedy pojawia się tłumaczenie, znika okienko tłumacza... */
+}
 /* ToDo
-1. Mediaqueries dla większej ilości widoków
+1. Mediaqueries dla większej ilości widoków - najlepiej przerobić żeby zaczynało od widoku mobilnego... 
 2. hover dodać tylko do media queries dla desktopów
 3. Zrobić wybór theme dark/light mode?  */
