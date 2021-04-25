@@ -29,7 +29,7 @@ const airAlphabet = {
 
 const form = document.querySelector("#translate form");
 const input = form.querySelector("input");
-const closeBtn = document.querySelector(".effect .btn");
+const closeBtn = document.querySelector(".effect .closeBtn");
 
 const resultBox = document.querySelector(".effect");
 let result = document.querySelector("p.text");
